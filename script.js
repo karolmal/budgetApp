@@ -13,6 +13,6 @@ var UIController = (function () {
 
 var controller = (function (budgetCtrl, UICtrl) {
 
-    //Code
+    document.querySelector('add__btn')
 
 })(budgetController, UIController);
