@@ -174,10 +174,12 @@ var controller = (function(budgetCtrl, UICtrl) {
     var budget = budgetCtrl.getBudget();
 
     // 3 Display the budget on the UI
+    console.log(budget);
   };
 
   var ctrlAddItem = function() {
     var input, newItem;
+    input = UICtrl.getInput();
 
     if (input.description !== "" && !isNaN(input.value) && input.value > 0) {
       // 1 Get the filed input data
